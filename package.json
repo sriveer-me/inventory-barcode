@@ -1,0 +1,24 @@
+{
+  "name": "inventory-barcode",
+  "source": "src/index.html",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sriveer-me/inventory-barcode.git"
+  },
+  "scripts": {
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html"
+  },
+  "bugs": {
+    "url": "https://github.com/sriveer-me/inventory-barcode/issues"
+  },
+  "homepage": "https://github.com/sriveer-me/inventory-barcode#readme",
+  "devDependencies": {
+    "parcel": "^2.10.3"
+  },
+  "dependencies": {
+    "@types/react": "^18.2.43",
+    "@types/react-dom": "^18.2.17"
+  }
+}
